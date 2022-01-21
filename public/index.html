@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaur Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Adding Custom Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>DINOSAUR GENERATOR</h1>
+        <!-- Button with its Associated Animations -->
+        <div class="container">
+            <div class="center">
+              <button class="btn" id ='btnLoad'>
+                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                </svg>
+                <span><b>Generate Dinosaur</b></span>
+              </button>
+            </div>
+          </div>        
+    </main>
+    
+    <div id="dinoName"></div>
+    <script src="script.js" id="dinoImage"></script>
+</body>
+</html>
