@@ -8,7 +8,7 @@ if (process.env.NODE_ENV!=='production'){
 const express = require('express');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 // fetch being a JS Function, the command 'npm install node-fetch' installs a module for us that allows us to use the fetch function in node as well.
 const fetch = require('cross-fetch');
