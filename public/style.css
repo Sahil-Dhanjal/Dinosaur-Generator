@@ -47,7 +47,6 @@ h1{
 /* Styling for the button */
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
 
-
 .container {
   width: 400px;
   height: 400px;
@@ -71,11 +70,16 @@ h1{
   width: 180px;
   height: 60px;
   cursor: pointer;
+  opacity: 0.5;
   background: transparent;
   border: 1px solid #91C9FF;
   outline: none;
   transition: 1s ease-in-out;
   margin-top: 80px;
+}
+
+.btn:hover{
+  opacity: 1;
 }
 
 svg {
