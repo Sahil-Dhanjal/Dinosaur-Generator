@@ -8,4 +8,4 @@ This is my very first Nodejs Application that works on randomly generating dinos
 
 <H1 align="center">Working Displayed</H1>
 
-<img src="https://github.com/Sahil-Dhanjal/Dinosaur-Generator/blob/main/Dinosaur%20Generator%20Homepage.gif" width="100%">
+<img src="https://github.com/Sahil-Dhanjal/Dinosaur-Generator/blob/main/DinosaurGeneratorHomepage.gif" width="100%">
